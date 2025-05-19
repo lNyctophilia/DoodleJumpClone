@@ -12,7 +12,7 @@ public class PlayerJump : MonoBehaviour
     }
     public void Jump(float JumpForce = 2f)
     {
-        rb.velocity = Vector2.up * JumpForce;
+        rb.linearVelocity = Vector2.up * JumpForce;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -24,7 +24,7 @@ public class PlayerJump : MonoBehaviour
     }
     private void Update()
     {
-        if (rb.velocity.y < 0)
+        if (rb.linearVelocity.y < 0)
         {
             falling = true;
         }
