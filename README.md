@@ -26,10 +26,8 @@ This project is **NOT affiliated with the original "Doodle Jump"** (by Lima Sky)
 --- 
 
 **🎯 Objective**
-- **Tilt or swipe** to move your character left/right and bounce on platforms!  
+- **Swipe** to move your character left/right and bounce on platforms!  
 - **Climb higher:** Each jump increases your score.  
-- **Avoid enemies & obstacles:** One wrong step, and it's game over!  
-- **Survive as long as possible:** The higher you go, the faster the difficulty increases!  
 
 ---  
 
